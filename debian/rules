@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+export DH_OPTIONS
+
+INSTDIR=debian/tmp
+
+export DEB_LDFLAGS_MAINT_APPEND := -latomic
+
+%:
+	dh $@ --buildsystem=cmake \
+		--builddirectory=build
+
+override_dh_auto_install:
+	dh_auto_install \
+		--buildsystem=cmake \
+		--destdir=$(INSTDIR)
+
+#override_dh_auto_test:
+#

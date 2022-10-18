@@ -1,0 +1,32 @@
+robin-map (0.6.3-1) UNRELEASED; urgency=medium
+
+  * update
+
+ -- Matteo F. Vescovi <mfv@debian.org>  Tue, 17 May 2022 17:48:48 +0800
+
+robin-map (0.6.3-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/control:
+    - debhelper bump 12 -> 13
+    - S-V bump 4.4.1 -> 4.5.0
+  * debian/robin-map-dev.install: usr/share dir added
+
+ -- Matteo F. Vescovi <mfv@debian.org>  Fri, 24 Jul 2020 23:54:28 +0200
+
+robin-map (0.6.2-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/watch: fix URL for upstream tarballs
+  * debian/: debhelper bump 11 -> 12
+  * debian/control:
+    - S-V bump 4.2.1 -> 4.4.1 (no changes needed)
+    - RRR set
+
+ -- Matteo F. Vescovi <mfv@debian.org>  Thu, 23 Jan 2020 10:02:39 +0100
+
+robin-map (0.5.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #916311)
+
+ -- Matteo F. Vescovi <mfv@debian.org>  Wed, 12 Dec 2018 22:37:12 +0100
